@@ -44,13 +44,27 @@ The project includes:
     python3 -m pytest -m ui
     ```
 
+3. **Generate Coverage Reports**
+
+    To run tests with coverage reports:
+    ```bash
+    python3 -m pytest --cov=stuff --cov-report=term --cov-report=html
+    ```
+
+    This will:
+    - Generate a terminal coverage report
+    - Create an HTML coverage report in the `htmlcov` directory
+    
+    You can view the HTML report by opening `htmlcov/index.html` in a web browser.
+
 
 ## Course Topics
 - **Introduction to Pytest:** Learn the basics of writing and running tests in Python.
-- **Fixture Usage:** Understand how to use fixtures for test setup as shown in test_accum.py
-- **Parameterization:** See examples of parameterized testing in test_math.py
-- **API Testing:** Get insights into testing HTTP APIs in test_api.py
-- **UI Testing with Playwright:** Automate browser interactions, demonstrated in test_ui.py
+- **Fixture Usage:** Understand how to use fixtures for test setup as shown in [tests/test_accum.py](tests/test_accum.py)
+- **Parameterization:** See examples of parameterized testing in [tests/test_math.py](tests/test_math.py)
+- **API Testing:** Get insights into testing HTTP APIs in [tests/test_api.py](tests/test_api.py)
+- **UI Testing with Playwright:** Automate browser interactions, demonstrated in [tests/test_ui.py](tests/test_ui.py)
+- **Coverage Reporting:** Learn how to measure test coverage with pytest-cov
 
 
 ## License
