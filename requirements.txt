@@ -1,0 +1,11 @@
+# Core testing framework
+pytest>=8.3.5
+
+# API testing
+requests>=2.31.0
+
+# UI testing with Playwright
+playwright>=1.42.0
+
+# Coverage reporting (optional)
+pytest-cov>=4.1.0
