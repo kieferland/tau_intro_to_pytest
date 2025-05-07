@@ -68,6 +68,6 @@ The project includes:
 
 
 ## License
-This project is provided for educational purposes as part of the Test Automation University course.
+This project is provided for educational purposes as part of the [Test Automation University](https://testautomationu.applitools.com/) [Introduction to Pytest](https://testautomationu.applitools.com/pytest-tutorial/) course.
 
 Happy Testing!
