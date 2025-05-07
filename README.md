@@ -1,6 +1,8 @@
 # Intro to Pytest
 
-This repository is part of the **Introduction to Pytest** course by [Test Automation University](https://testautomationu.applitools.com/pytest-tutorial/). It contains examples demonstrating various aspects of testing in Python using [pytest](https://docs.pytest.org/).
+This repository is part of the **Introduction to Pytest** course by [Test Automation University](https://testautomationu.applitools.com/pytest-tutorial/).
+
+It contains examples demonstrating various aspects of testing in Python using [pytest](https://docs.pytest.org/).
 
 ## Project Overview
 
@@ -19,46 +21,62 @@ The project includes:
 
 ## Getting Started
 
-1. **Install Dependencies**
+### Clone the Repository
 
-    If you have a requirements file (or add dependencies as needed), install them:
-    ```bash
-    pip install -r requirements.txt
-    ```
-   
-    For UI testing using Playwright, run:
-    ```bash
-    pip install playwright
-    playwright install
-    ```
+```bash
+git clone https://github.com/kiefertaylorland/tau_intro_to_pytest
+```
 
-2. **Run the Tests**
+### Change Directory
 
-    To run all tests:
-    ```bash
-    python3 -m pytest
-    ```
+```bash
+cd tau_intro_to_pytest/
+```
 
-    To run tests by marker (for example, UI tests):
-    ```bash
-    python3 -m pytest -m ui
-    ```
+### Install Dependencies
 
-3. **Generate Coverage Reports**
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-    To run tests with coverage reports:
-    ```bash
-    python3 -m pytest --cov=stuff --cov-report=term --cov-report=html
-    ```
+### For UI testing using Playwright
 
-    This will:
-    - Generate a terminal coverage report
-    - Create an HTML coverage report in the `htmlcov` directory
-    
-    You can view the HTML report by opening `htmlcov/index.html` in a web browser.
+  ```bash
+  pip install playwright
+  playwright install
+  ```
 
+### Run the Tests
+
+To run all tests:
+
+```bash
+python3 -m pytest
+```
+
+### To run tests by marker (for example, UI tests)
+
+```bash
+python3 -m pytest -m ui
+```
+
+### Generate Coverage Reports
+
+To run tests with coverage reports:
+
+```bash
+python3 -m pytest --cov=stuff --cov-report=term --cov-report=html
+```
+
+**This will:**
+
+- Generate a terminal coverage report
+- Create an HTML coverage report in the `htmlcov` directory
+
+You can view the HTML report by opening `htmlcov/index.html` in a web browser.
 
 ## Course Topics
+
 - **Introduction to Pytest:** Learn the basics of writing and running tests in Python.
 - **Fixture Usage:** Understand how to use fixtures for test setup as shown in [tests/test_accum.py](tests/test_accum.py)
 - **Parameterization:** See examples of parameterized testing in [tests/test_math.py](tests/test_math.py)
@@ -66,8 +84,8 @@ The project includes:
 - **UI Testing with Playwright:** Automate browser interactions, demonstrated in [tests/test_ui.py](tests/test_ui.py)
 - **Coverage Reporting:** Learn how to measure test coverage with pytest-cov
 
-
 ## License
+
 This project is provided for educational purposes as part of the [Test Automation University](https://testautomationu.applitools.com/) [Introduction to Pytest](https://testautomationu.applitools.com/pytest-tutorial/) course.
 
 Happy Testing!
