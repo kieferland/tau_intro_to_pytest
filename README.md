@@ -1,6 +1,6 @@
 # Intro to Pytest
 
-This repository is part of the **Introduction to Pytest** course by [Test Automation University](https://testautomationu.applitools.com/pytest-tutorial/).
+This repository covers the **Introduction to Pytest** course by [Test Automation University](https://testautomationu.applitools.com/pytest-tutorial/).
 
 It contains examples demonstrating various aspects of testing in Python using [pytest](https://docs.pytest.org/).
 
