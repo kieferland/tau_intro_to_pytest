@@ -1,6 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "pip"
-    directory: "/.github"
+    directory: "requirements.txt"
     schedule:
       interval: "daily"
